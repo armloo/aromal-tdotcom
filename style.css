@@ -1,0 +1,132 @@
+.navdiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+    color: lime;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+button{
+    border-radius: 10px;
+    display: inline-block;
+    font-size: larger;
+    background: lightgreen;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 80px;
+    color: lime;
+}
+
+h2{
+    font-size: 50px;
+    color: white;
+}
+
+h3{
+    font-size: 15px;
+    color: white;
+}
+ 
+p{
+    color: white;
+}
+
+body{
+    background-color: black;
+    font-family: 'Geologica', sans-serif;;
+}
+
+.box{
+    display: flex;
+    gap: 20%;
+}
+
+.left{
+
+    text-align: left;
+    margin-top: 10%;
+    margin-left:9%;
+}
+
+.right{
+    margin-top: 7%;
+    margin-right: 9%;
+}
+.btn{
+    display: inline-block;
+}
+.btn1{
+    padding: 10px 30px;
+    color: black;
+    background: lime;
+}
+.btn2{
+    padding: 10px 30px;
+    background-color: black;
+    border: 2px solid greenyellow;
+    color: white;
+}
+
+@media (max-width:480px){
+
+   .sm{
+    display: none;
+   }
+    .logo{
+        font-size: large;
+        margin: auto;
+    }
+    .box{
+        flex-direction: column-reverse;  
+    }
+    img{
+        height: 300px;
+    }
+    .right{
+      margin: auto;
+      margin-top: 10%;
+    }
+    .left{
+        text-align: center;
+        margin: auto;
+    }
+    .btn{
+        display: block;
+    }
+    .btn1{
+        width: 100%;
+    }
+    .btn2{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 50px;
+        color: lime;
+    }
+    
+    h2{
+        font-size: 30px;
+        color: white;
+    }
+    
+    h3{
+        font-size: 15px;
+        color: white;
+    }
+     
+}
